@@ -12,7 +12,7 @@ public class Curso extends Conteudo {
         sb.append('}');
         return sb.toString();
     }
-
+//Getters e Setters
     public int getCargaHoraria() {
         return cargaHoraria;
     }

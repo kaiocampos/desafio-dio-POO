@@ -1,4 +1,7 @@
 package br.com.dio.desafio.dominio;
+/*
+* Classe que representa um Conteúdo
+ */
 
 public abstract class Conteudo {
     protected static final double XP_PADRAO = 10d;
@@ -7,6 +10,7 @@ public abstract class Conteudo {
 
     public abstract double calcularXp();
 
+    // Getters e Setters
     public String getTitulo() {
         return titulo;
     }
